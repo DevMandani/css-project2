@@ -1,0 +1,298 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px
+}
+.container{
+    max-width:1320px;
+    margin:auto;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.header{
+    height:100px;
+    width:100%;
+   
+}
+.header1{
+ 
+    height: 100px;
+    width:80%;
+   
+}
+.header2{
+
+    height:100%;
+    width:20%;
+}
+.one{
+    font-size: 24px;
+    color:#364253;
+    font-family:  'Nunito', sans-serif;
+    display: flex;
+ 
+    justify-content: center;
+    line-height: 100px;
+    letter-spacing: 1px;
+    word-spacing: 5;
+}
+.two{
+   
+    line-height: 100px;
+   text-align: center;
+
+   font-size: 20px;
+   text-decoration: none;
+
+
+}
+.container1{
+    margin: auto;
+    
+}
+.mainheader{
+    position:fixed;
+    height:70px;
+    width:100%;
+
+  text-align: center;
+    margin:auto;
+    background-color: white;
+    backdrop-filter: blur(8px);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+
+}
+.mainheader1{
+    
+    
+    height:100%;
+    
+}
+.mainheader2{
+    width:100%;
+   
+    height:100%;
+    
+}
+.three{
+    display: inline-block;
+    color:#364253;
+    line-height: 70px;
+}
+.boxes{
+    max-width:1320px;
+    
+    margin:auto;
+    scroll-behavior: smooth;
+    overflow:hidden;
+    padding: 50px;
+    padding-top:150px ;
+    scroll-behavior: smooth;
+    overflow: scroll;
+   
+}
+.subboxes{
+    display: flex;
+    width:5200px;
+   
+    animation: slider 20s infinite ease-in-out;
+}
+@keyframes slider {
+    0%{
+        margin-left:0px;
+    }
+ 
+    25%{
+        margin-left:-1300px;
+    }
+ 
+    50%{
+        margin-left:-2600px;
+    }
+  
+    75%{
+        margin-left:-3900px;
+    }
+
+    100%{
+        margin-left:-5200px;
+    }
+   }
+.otherbox{
+    padding: 10px 20px;
+    height: 50vh;
+    display: flex;
+   
+}
+.box1{
+    border:1px solid black;
+    width:1300px;
+        height:50vh;
+      background:url(img/image2.jpg), linear-gradient( rgba(213, 96, 115, 0.88), rgba(255, 255, 143, 0.5));
+      font-family: 'Lora', sans-serif;
+       background-size: cover;
+ 
+
+    
+    }
+.box2{
+    border:1px solid black;
+    width:1300px;
+        height:50vh;
+      
+}
+.box3{
+    border:1px solid black;
+    width:1300px;
+        height:50vh;
+      
+}
+.box4{
+    border:1px solid black;
+    width:1300px;
+        height:50vh;
+      
+}
+img{
+    height:100%;
+    width:100%;
+ 
+    
+    
+}
+.home{
+    height:100px;
+    width:100%;
+    
+   padding:50px 0px 0px;
+}
+.home1{
+    height:100%;
+    width:100%;
+}
+.sixth{
+    color:black;
+}
+.details{
+    height:150px;
+    width:100%;
+
+}
+.details1{
+    height:100%;
+    width:25%;
+    
+    display: flex;
+}
+.details2{
+    height:100%;
+    width:25%;
+    
+}
+.details3{
+    height:100%;
+    width:25%;
+   
+}
+.details4{
+    height:100%;
+    width:25%;
+ 
+}
+.seventh{
+    font-size: 20px;
+}
+.fa-car{
+    color:white;
+    background-color:#EB984E;
+}
+.eight{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: none;
+    color: #364253;
+    line-height: 1.8;
+    letter-spacing: normal;
+}
+.ninth{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;position: absolute;
+bottom:-50px;
+left:300px;
+    font-weight: normal;
+    text-transform: none;
+    color: #364253;
+    line-height: 1.8;
+    letter-spacing: normal;
+}
+.ri-time-line{
+    color:white;
+    background-color:#EB984E;
+}
+.tenth{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;position: absolute;
+bottom:-50px;
+left:630px;
+    font-weight: normal;
+    text-transform: none;
+    color: #364253;
+    line-height: 1.8;
+    letter-spacing: normal;
+}
+.elevanth{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;position: absolute;
+bottom:-50px;
+left:960px;
+    font-weight: normal;
+    text-transform: none;
+    color: #364253;
+    line-height: 1.8;
+    letter-spacing: normal;
+}
+.twelth{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;position: absolute;
+bottom:-50px;
+left:1290px;
+    font-weight: normal;
+    text-transform: none;
+    color: #364253;
+    line-height: 1.8;
+    letter-spacing: normal;
+}
+.myproduct{
+    width:100%;
+    height: 800px;
+    border:1px solid black;
+}
+.gedgetzone{
+   position:relative; 
+    text-align: center;
+   top:30px;
+   bottom:20px;
+   left:300px;
+    border:1px solid black;
+    height:300px;
+    width:50%; color:#364253;
+    font-size: 30px;
+
+
+}
+.gedgetdetails{
+    width:100%;
+    height:100%;
+    border:1px solid red;
+}
+.fourteen{
+    font-size: 15px !important;
+    text-align:left
+   
+
+}
